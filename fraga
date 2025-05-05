@@ -612,9 +612,6 @@
     </style>
 </head>
 <body>
-    <button id="skipButton" class="skip-button" onclick="skipToForm()" style="display: block;">
-        Hoppa över och gå direkt till formuläret
-    </button>
     <div class="container">
         <div class="progress-container">
             <div id="progress-bar" class="progress-bar"></div>
@@ -1297,16 +1294,6 @@ async function showWeatherTip(skinType) {
             <div class="compatibility-description">Kunde inte hämta väderdata. Vänligen kontrollera din internetanslutning.</div>
         `;
     }
-}
-
-function skipToForm() {
-    window.location.href = 'fraga';
-}
-
-// 在拍照完成后调用此函数
-function updateSkipButton() {
-    const skipButton = document.getElementById('skipButton');
-    skipButton.textContent = 'Gå till formuläret';
 }
 
 // 初始化
