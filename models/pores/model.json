@@ -1,0 +1,30 @@
+{
+  "format": "layers-model",
+  "generatedBy": "TensorFlow.js v3.18.0",
+  "convertedBy": "TensorFlow.js Converter v3.18.0",
+  "modelTopology": {
+    "class_name": "Sequential",
+    "config": {
+      "name": "pores_model",
+      "layers": [
+        {
+          "class_name": "InputLayer",
+          "config": {
+            "batch_input_shape": [null, 256, 256, 3],
+            "dtype": "float32",
+            "sparse": false,
+            "name": "input"
+          }
+        }
+      ]
+    },
+    "keras_version": "2.8.0",
+    "backend": "tensorflow"
+  },
+  "weightsManifest": [
+    {
+      "paths": ["weights.bin"],
+      "weights": []
+    }
+  ]
+} 
