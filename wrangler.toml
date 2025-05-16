@@ -1,0 +1,5 @@
+name = "skinroller-static"
+compatibility_date = "2025-05-16"
+
+[site]
+bucket = "."
